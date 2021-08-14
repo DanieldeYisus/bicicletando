@@ -2,7 +2,7 @@ function changeView(type) {
   const path = window.location.pathname;
 
   if (type === "home") {
-    if (path === '/bicicletando/') {
+    if (path === '/bicicletando/index.html') {
       document.body.style.backgroundColor = "red";
       return false;
     } else {
